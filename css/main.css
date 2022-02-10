@@ -1,0 +1,73 @@
+.container {
+  height: 500px;
+  width: 15em;
+  overflow: hidden;
+  border-radius: .5em;
+  margin: auto;
+  padding: auto;
+}
+
+.container .hero-svg {
+  width: 15em;
+}
+
+.container .navbar {
+  text-align: center;
+  place-content: space-between;
+}
+
+.container .navbar h1 {
+  font-size: 0150%;
+}
+
+.container .medium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.container .medium h1 {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.container .medium p {
+  text-align: center;
+  place-content: space-between;
+  font-size: 15px;
+  margin: 0;
+}
+
+.container .medium img {
+  height: 40px;
+}
+
+.container .Bottom {
+  text-align: center;
+}
+
+.container .Bottom a {
+  background: blue;
+  -webkit-box-shadow: 5px 10px 13px rgba(15, 64, 224, 0.35);
+          box-shadow: 5px 10px 13px rgba(15, 64, 224, 0.35);
+  color: white;
+  padding: .8em 1.5em;
+  font-weight: bold;
+  text-align: center;
+  border-radius: .7em;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container .Bottom p {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
